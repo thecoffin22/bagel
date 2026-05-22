@@ -1,5 +1,6 @@
 package net.coffin.bagel;
 
+import net.coffin.bagel.events.TotemFulfillmentEvents;
 import net.coffin.bagel.item.ModItemGroups;
 import net.coffin.bagel.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,5 +20,7 @@ public class BagelMod implements ModInitializer {
 	public void onInitialize() {
         ModItems.registerModItems();
         ModItemGroups.registerItemGroups();
+
+        TotemFulfillmentEvents.register();
 	}
 }

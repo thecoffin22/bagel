@@ -1,6 +1,11 @@
 {
   "item.bagel.bagel": "Bagel",
   "item.bagel.baked_bagel": "Baked Bagel",
+  "item.bagel.burnt_bagel": "Burnt Bagel",
+  "item.bagel.golden_bagel": "Golden Bagel",
+  "item.bagel.enchanted_golden_bagel": "Enchanted Golden Bagel",
+  "item.bagel.totem_fulfillment": "Totem of Fulfillment",
+
 
   "itemgroup.bagel.items": "A Bagel Mod"
 

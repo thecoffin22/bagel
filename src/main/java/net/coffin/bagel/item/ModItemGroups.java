@@ -17,6 +17,10 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.BAGEL);
                         entries.add(ModItems.BAKED_BAGEL);
+                        entries.add(ModItems.BURNT_BAGEL);
+                        entries.add(ModItems.GOLDEN_BAGEL);
+                        entries.add(ModItems.ENCHANTED_GOLDEN_BAGEL);
+                        entries.add(ModItems.TOTEM_FULFILLMENT);
 
 
                     }).build());

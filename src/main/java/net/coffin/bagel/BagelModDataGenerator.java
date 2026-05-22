@@ -1,5 +1,6 @@
 package net.coffin.bagel;
 
+import net.coffin.bagel.datagen.ModItemTagProvider;
 import net.coffin.bagel.datagen.ModModelProvider;
 import net.coffin.bagel.datagen.ModRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -12,6 +13,7 @@ public class BagelModDataGenerator implements DataGeneratorEntrypoint {
 
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModRecipeProvider::new);
+        pack.addProvider(ModItemTagProvider::new);
 	}
 
 }

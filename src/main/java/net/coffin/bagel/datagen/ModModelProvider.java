@@ -20,5 +20,9 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.BAGEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.BAKED_BAGEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BURNT_BAGEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLDEN_BAGEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENCHANTED_GOLDEN_BAGEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOTEM_FULFILLMENT, Models.GENERATED);
     }
 }
