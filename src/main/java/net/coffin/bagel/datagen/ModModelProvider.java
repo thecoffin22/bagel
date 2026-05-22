@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -23,6 +24,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BURNT_BAGEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.GOLDEN_BAGEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENCHANTED_GOLDEN_BAGEL, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.TOTEM_FULFILLMENT, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BAGEL_BOOTS));
     }
 }

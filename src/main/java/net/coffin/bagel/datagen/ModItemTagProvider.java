@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -25,6 +26,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.CRAFT_GOLDEN_BAGEL)
                 .add(ModItems.BAGEL)
                 .add(ModItems.BAKED_BAGEL);
+
+        getOrCreateTagBuilder(ModTags.Items.CRAFT_BAGEL_BOOTS)
+                .add(ModItems.BAGEL)
+                .add(ModItems.BAKED_BAGEL);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.BAGEL_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
+                .add(ModItems.BAGEL_BOOTS);
 
     }
 }

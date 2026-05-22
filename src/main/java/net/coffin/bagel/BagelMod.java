@@ -3,6 +3,7 @@ package net.coffin.bagel;
 import net.coffin.bagel.events.TotemFulfillmentEvents;
 import net.coffin.bagel.item.ModItemGroups;
 import net.coffin.bagel.item.ModItems;
+import net.coffin.bagel.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -22,5 +23,6 @@ public class BagelMod implements ModInitializer {
         ModItemGroups.registerItemGroups();
 
         TotemFulfillmentEvents.register();
+        ModLootTableModifiers.modifyLootTables();
 	}
 }

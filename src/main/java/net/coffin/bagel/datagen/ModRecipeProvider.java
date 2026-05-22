@@ -63,5 +63,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', Items.HAY_BLOCK)
                 .criterion(hasItem(Items.TOTEM_OF_UNDYING), conditionsFromItem(Items.TOTEM_OF_UNDYING))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BAGEL_BOOTS, 1)
+                .pattern("E E")
+                .input('E', ModTags.Items.CRAFT_BAGEL_BOOTS)
+                .criterion(hasItem(ModItems.BAGEL), conditionsFromItem(ModItems.BAGEL))
+                .offerTo(exporter);
     }
 }

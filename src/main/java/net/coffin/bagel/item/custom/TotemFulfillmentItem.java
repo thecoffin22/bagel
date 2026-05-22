@@ -27,9 +27,9 @@ public class TotemFulfillmentItem extends Item {
 
         player.setHealth(1.0F);
 
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 20 * 35, 4));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 20 * 15, 2));
         player.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 20 * 180, 4));
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20 * 60, 1));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20 * 30, 1));
 
         player.getWorld().sendEntityStatus(player, (byte)35);
 

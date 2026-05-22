@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GOLDEN_BAGEL);
                         entries.add(ModItems.ENCHANTED_GOLDEN_BAGEL);
                         entries.add(ModItems.TOTEM_FULFILLMENT);
+                        entries.add(ModItems.BAGEL_BOOTS);
 
 
                     }).build());

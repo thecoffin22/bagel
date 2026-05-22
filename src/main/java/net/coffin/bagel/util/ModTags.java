@@ -10,7 +10,8 @@ public class ModTags {
     public static class Items {
         public static final TagKey<Item> SMOKED_BAKED_BAGEL = createTag("smoked_baked_bagel");
         public static final TagKey<Item> SMOKED_BURNT_BAGEL = createTag("smoked_burnt_bagel");
-        public static final TagKey<Item> CRAFT_GOLDEN_BAGEL = createTag("smoked_burnt_bagel");
+        public static final TagKey<Item> CRAFT_GOLDEN_BAGEL = createTag("craft_golden_bagel");
+        public static final TagKey<Item> CRAFT_BAGEL_BOOTS = createTag("craft_bagel_boots");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(BagelMod.MOD_ID, name));
