@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "tag": "bagel:craft_golden_bagel"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ERE",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bagel:golden_bagel"
+  }
+}

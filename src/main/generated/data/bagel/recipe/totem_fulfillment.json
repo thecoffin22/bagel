@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "R": {
+      "item": "minecraft:hay_block"
+    },
+    "T": {
+      "item": "bagel:enchanted_golden_bagel"
+    },
+    "W": {
+      "item": "bagel:golden_bagel"
+    }
+  },
+  "pattern": [
+    " T ",
+    "RER",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bagel:totem_fulfillment"
+  }
+}

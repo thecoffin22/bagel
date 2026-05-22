@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baked_bagel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bagel:baked_bagel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bagel:burnt_bagel_from_smoker"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_baked_bagel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bagel:burnt_bagel_from_smoker"
+    ]
+  }
+}

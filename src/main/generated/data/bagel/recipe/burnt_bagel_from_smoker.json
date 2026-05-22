@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.15,
+  "ingredient": {
+    "tag": "bagel:smoked_burnt_bagel"
+  },
+  "result": {
+    "id": "bagel:burnt_bagel"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "pladium_ingot",
+  "ingredient": {
+    "item": "bagel:baked_bagel"
+  },
+  "result": {
+    "id": "bagel:burnt_bagel"
+  }
+}

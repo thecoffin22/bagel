@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "bagel:craft_bagel_boots"
+    }
+  },
+  "pattern": [
+    "E E"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bagel:bagel_boots"
+  }
+}
