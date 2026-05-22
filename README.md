@@ -1,9 +1,34 @@
-# Bagel Mod
+# A Bagel Mod
+This mod adds bagel related things. That's Really it and the mod is pretty small so if you like bagels then this is a mod for you.
 
-## Setup
+## Versions
+I have plans to be updating this mod since it's so small
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+X = Will not be updated too.
 
-## License
+? = Considering to update to.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+! = Already Updated.
+
+1.20.1-1.20.6 - ?
+
+1.21.1 - !
+
+1.21.2-1.21.11 - ?
+
+26.1.X - ?
+
+## Bagels
+
+<details>
+<summary>Spoiler</summary>
+
+**Bagel**
+
+- A basic bagel crafted from wheat.
+
+**Baked Bagel**
+
+- A bagel that is baked just right, giving more nutrition and saturation.
+
+</details>
