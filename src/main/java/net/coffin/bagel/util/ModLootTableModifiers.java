@@ -26,6 +26,25 @@ public class ModLootTableModifiers {
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 3.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
+
+            }
+            if(LootTables.TRIAL_CHAMBERS_REWARD_OMINOUS_CHEST.equals(key)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.13f))
+                        .with(ItemEntry.builder(ModItems.ENCHANTED_GOLDEN_BAGEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(LootTables.DESERT_PYRAMID_CHEST.equals(key)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.075f))
+                        .with(ItemEntry.builder(ModItems.ENCHANTED_GOLDEN_BAGEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
             }
         });
     }
