@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "bagel:baked_bagel_from_smoker"
+        "recipe": "minecraft:baked_bagel_from_smoker"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "bagel:baked_bagel_from_smoker"
+      "minecraft:baked_bagel_from_smoker"
     ]
   }
 }

@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 0.25,
   "group": "pladium_ingot",
-  "ingredient": {
-    "item": "bagel:bagel"
-  },
+  "ingredient": "bagel:bagel",
   "result": {
     "id": "bagel:burnt_bagel"
   }

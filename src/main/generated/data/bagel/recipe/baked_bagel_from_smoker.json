@@ -3,9 +3,7 @@
   "category": "food",
   "cookingtime": 100,
   "experience": 0.15,
-  "ingredient": {
-    "tag": "bagel:smoked_baked_bagel"
-  },
+  "ingredient": "bagel:bagel",
   "result": {
     "id": "bagel:baked_bagel"
   }

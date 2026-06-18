@@ -1,9 +1,9 @@
-// 1.21.1	2026-05-22T11:45:23.6127624	Bagel Mod/Model Definitions
+// 1.21.3	2026-06-17T17:52:47.4930671	Bagel Mod/Model Definitions
 6ca6e30ea7538e7f91ebf3febe94d3a0fa06a18c assets\bagel\models\item\bagel_boots_netherite_trim.json
-378b78c55ed070645178316da58fdc77f5507829 assets\bagel\models\item\bagel_boots_lapis_trim.json
 07b739b61a1dcb4170f5f005eb7fe0d8d405501f assets\bagel\models\item\baked_bagel.json
-86b42565b60d655956ba8bd374efbbcc8538da9a assets\bagel\models\item\burnt_bagel.json
+378b78c55ed070645178316da58fdc77f5507829 assets\bagel\models\item\bagel_boots_lapis_trim.json
 9a388dffe4ea7e42a23bf31d3663af4cbb44a218 assets\bagel\models\item\bagel_boots_amethyst_trim.json
+86b42565b60d655956ba8bd374efbbcc8538da9a assets\bagel\models\item\burnt_bagel.json
 37eb1f1beebfef67d631a72b7ab4d02301bec270 assets\bagel\models\item\golden_bagel.json
 79397679a6f96d2111ffc2be8e1ef07bafe3f346 assets\bagel\models\item\bagel_boots_emerald_trim.json
 87c1142cc414e0de45c15476dd2d0f1c45f27484 assets\bagel\models\item\bagel_boots_quartz_trim.json
